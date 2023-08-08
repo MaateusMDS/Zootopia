@@ -42,6 +42,6 @@ public abstract class AnimalAereoAB extends AnimalAB {
 
     public void voar(int distancia) {
         this.moverse(distancia);
-        System.out.println(getNome() + " voou " + distancia + " metros.");
+        System.out.println("O pombo voou " + distancia + " metros.");
     }
 }
