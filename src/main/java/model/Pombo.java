@@ -25,9 +25,4 @@ public class Pombo extends AnimalAereoAB {
         super.dormir(horas);
         System.out.println("O pombo dormiu por " + horas + " horas.");
     }
-
-    public void voar(int distancia){
-        super.setQuantCaminho(getQuantCaminho() + distancia);
-        System.out.println("O pombo voou " + distancia + " metros.");
-    }
 }
